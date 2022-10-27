@@ -9,3 +9,12 @@ kroki:
 -wkleic do C:\Program Files\	
 -dodac do zmiennych srodowiskowych ..\bin	
 -cmd -> gcc --version
+
+In VSC -> View -> Command Palette -> c/C++ Edit Configurations (UI)
+Zestaw konfiguracji do edycji: windows-gcc-x64
+Path - C:/Program Files/mingw64/bin/gcc.exe
+Tryb funkcji intellisense - windows-gcc-x64
+Standard jezyka: c17
+Standard jezyka C++: gnu++17
+
+Before Start or Debug choose main.cpp in one of the project directories!
